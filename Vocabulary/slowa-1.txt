@@ -1,0 +1,89 @@
+sztuka,Art
+informatyka,Computer Studies
+język angielski,English
+język francuski,French
+geografia,Geography
+historia,History
+matematyka,Maths
+muzyka,Music
+W-F,P.E.
+przyroda,Science
+kalkulator,calculator
+słownik,dictionary
+laptop,laptop
+mapa,map
+farby,paints
+piórnik,pencil case
+gumka,rubber
+linijka,ruler
+nożyczki,scissors
+trampki,trainers
+Pospiesz się!,Hurry up!
+Jesteśmy spóźnieni!,We're late!
+Ale bałagan!,What a mess!
+w domu,at home
+w szkole,at school
+jednocześnie,at the same time
+nudny,boring
+przynieść,bring
+codzienne zajęcia,daily routine
+kolacja,dinner
+wstawać,get up
+jeść śniadanie,have breakfast
+w klasie,in class
+spóźnić się na lekcje,late for class
+słuchać muzyki,listen to music
+hałaśliwy,noisy
+w telewizji,on TV
+uprawiać sporty,play sports
+uczyć się,study
+dziś wieczorem,tonight
+iść do szkoły pieszo,walk to school
+tańczyć w balecie,do ballet
+uprawiać dżudo,do judo
+uprawiać karate,do karate
+zajmować się garncarstwem,do pottery
+grać w koszykówkę,play basketball
+grać w szachy,play chess
+grać w piłkę nożną,play football
+grać w tenisa,play tennis
+grać na perkusji,play the drums
+grać na gitarze,play the guitar
+grać na pianinie,play the piano
+zespół,band
+znudzony,bored
+grać w zespole,play in a band
+odpoczywać,rest
+Czy mógłbyś to przeliterować?,How do you spell that?
+Jaki jest twój e-mail?,What's your email address?
+Jak masz na imię?,What's your name?
+Jaki jest twój numer telefonu?,What's your phone number?
+Gdzie mieszkasz?,Where do you live?
+Czy mógłbym ci pomóc?,Can I help you?
+zapisać się do klubu,join a club
+stołówka,canteen
+klasa,classroom
+pracownia komputerowa,computer room
+sala gimnastyczna,gym
+korytarz,hall
+biblioteka,library
+plac zabaw,playground
+pokój nauczycielski,staff room
+apel szkolny,assembly
+dzwonek,bell
+szalony,crazy
+opisać,describe
+ekscytujący,exciting
+skończyć,finish
+magia,magic
+tęsknić za rodzicami,miss your parents
+potwór,monster
+typowy,typical
+obudzić się,wake up
+o dziewiątej,at 9 o'clock
+w weekend,at the weekend
+w czasie lunchu,at lunchtime
+rano,in the morning
+w poniedziałek,on Monday
+w piątek rano,on Friday morning
+w dzień powszedni,on a weekday
