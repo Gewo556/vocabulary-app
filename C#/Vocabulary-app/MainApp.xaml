@@ -1,0 +1,42 @@
+﻿<Window x:Class="Vocabulary_app.MainApp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vocabulary_app"
+        mc:Ignorable="d"
+        Title="Aplikacja do słówek" Height="500" Width="800"
+        KeyDown="Window_KeyDown">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="220" />
+        </Grid.RowDefinitions>
+        <Grid Margin="10" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="40" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="txtWord" Grid.Column="0" FontSize="20" FontWeight="Medium" VerticalAlignment="Center" HorizontalAlignment="Right" FontFamily="Tahoma" Visibility="Hidden"/>
+            <TextBlock x:Name="txtEqual" Text="=" Grid.Column="1" FontSize="20" FontWeight="Medium" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Tahoma" Visibility="Hidden"/>
+            <TextBox x:Name="txtbUserTranslation" Grid.Column="2" FontSize="20" FontWeight="Medium" Visibility="Hidden" Height="50" Width="350" VerticalAlignment="Center" HorizontalAlignment="Left" PreviewKeyDown="txtbUserTranslation_PreviewKeyDown" PreviewKeyUp="txtbUserTranslation_PreviewKeyUp" BorderBrush="Black" FontFamily="Tahoma" />
+        </Grid>
+
+        <TextBlock x:Name="txtCorrectWord" Grid.Row="2" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Tahoma" Visibility="Hidden">
+            Poprawne słowo to:
+        </TextBlock>
+        <TextBlock x:Name="txtTranslate" Text="Przetłumacz słowo" Grid.Row="0" FontSize="40" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Tahoma" Visibility="Hidden"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Center" Background="#F5B7B1"  VerticalAlignment="Center" Click="btnStart_Click" Grid.Row="1" FontSize="60" Padding="15" FontWeight="Bold" Width="400" Visibility="Visible" FontFamily="Tahoma" />
+        <TextBlock x:Name="txtSuccess" Grid.Row="3" FontSize="25" Foreground="#FF4CAF50" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Tahoma" Visibility="Hidden">
+            Poprawna odpowiedź! Usuwam słowo z listy.
+        </TextBlock>
+        <TextBlock x:Name="txtFail" Grid.Row="3" FontSize="25" Foreground="#F44336" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Tahoma" Visibility="Hidden">
+            Niepoprawna odpowiedź. Spróbuj jeszcze raz i
+            <LineBreak />
+            naciśnij spacje jak będziesz gotowy.
+        </TextBlock>
+    </Grid>
+</Window>
