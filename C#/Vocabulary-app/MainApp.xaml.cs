@@ -24,7 +24,7 @@ namespace Vocabulary_app
     public partial class MainApp : Window
     {
         private MyLanguage language;
-        private static string vocabularyPath = @"..\..\..\..\..\Vocabulary\slowa.txt";
+        private static string vocabularyPath = @"..\..\..\..\..\..\Vocabulary\slowa-1.txt";
         private List<WordPair> wordPairs;
         private string actualWords;
         private int rounds;
@@ -155,7 +155,7 @@ namespace Vocabulary_app
             {
                 CheckTranslate();
             }
-            else if (e.Key == Key.Space)
+            else if (e.Key == Key.Space && (txtFail.Visibility == Visibility.Visible || txtSuccess.Visibility == Visibility.Visible))
             {
                 ResetInterface();
             }
@@ -165,6 +165,8 @@ namespace Vocabulary_app
         {
             if(e.Key == Key.Escape)
             {
+                EndScreen endScreen = new EndScreen(points, rounds);
+                endScreen.ShowDialog();
                 this.Close();
             }
         }
