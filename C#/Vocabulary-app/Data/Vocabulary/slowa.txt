@@ -1,0 +1,5 @@
+dom,house
+samochód,car
+książka,book
+pies,dog
+telefon,phone

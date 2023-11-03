@@ -6,6 +6,11 @@
     <RootNamespace>Vocabulary_app</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Data\Images\languages.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Data\Images\languages.ico" />
+  </ItemGroup>
 
 </Project>
